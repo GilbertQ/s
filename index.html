@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Hoja de Vida - Ulises Quiñónez</title>
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />	
+  <meta name="description" content="Ulises Quinonez's personal page: Read, Write, Code, Solve, Badge, Coursera, Projects, Leer, Escribir, Programar, Resolver, Credenciales">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.wrapper {
+  position: relative;
+  display: inline-block; /* Ensure the wrapper only takes the space it needs */
+}
+
+.wrapper i {
+  color: gray;
+  opacity: 0.5;
+}
+.container {
+  position: relative; /* Make the container a positioning context */
+}
+
+#language-toggle {
+  position: absolute;
+  top: 0; /* Align button to the top of the container */
+  right: 0; /* Align button to the right of the container */
+}
+</style>
+  <style>
+    /* Style for the modal */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+      justify-content: center;
+      align-items: center;
+	  position: fixed;
+	  z-index: 9999;
+	  
+    }
+
+   .modal-content {
+      background-color: white; /* Set background color to solid white */
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);	  
+    }
+	    /* Overlay element to block content */
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: white; /* Set the same background color as modal content */
+      opacity: 1; /* Set opacity to block content */
+    }
+  </style>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3- light-grey w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+<div class="container">
+  <img id="img" src="img\avatar1.png" style="width:60%" alt="Avatar">
+  <button id="language-toggle" class="w3-button w3-teal" onclick="window.location.href='eng/index.html'">English Version</button>
+</div>
+          <div class="w3-display-bottomcenter w3-container w3-text-black">
+            <h2>Ulises Quiñónez</h2>
+<div style="display: flex; justify-content: space-between;">
+<a href="https://www.credly.com/users/ulises-quinonez" class="w3-text-dark-grey w3-padding-16" style="text-align: right; font-size: smaller;">
+  <i class="fas fa-certificate"></i> Credenciales
+</a>
+  <a href="https://www.coursera.org/learner/ulises-quinonez-7554" class="w3-text-dark-grey w3-padding-16" style="text-align: right; font-size: 90%; color: blue;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <text x="50%" y="50%" font-size="16" dy=".3em" text-anchor="middle" fill="white">C</text>
+    </svg>
+	Coursera
+  </a>
+<a href="#" class="w3-text-dark-grey w3-padding-16" style="text-align: right; font-size: smaller;" id="modal-link">
+  <i class="fas fa-tasks"></i> Proyectos
+</a>
+<!-- The modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+	<span class="close" style="cursor: pointer;">&times;</span><- Cerrar esta ventana
+	<br>
+    <h2>Un par de proyectos</h2>
+	<br>
+    <a href="http://prediocampeon.is-best.net/">Proyecto 1</a>:
+	Un catálogo de automóviles realizado con PHP y mySql.
+	<br>
+    <br>
+    <a href="http://contrabajo.is-best.net/">Proyecto 2</a>:
+	Un listado de ofertas laborales realizado con PHP y mySql.	
+	<br>
+    <br>
+    <a href="https://iulisesq.shinyapps.io/Covid_bajas/">Proyecto 3</a>:
+	Una gráfica dinámica de víctimas de COVID realizada con R.
+	<br>
+	<br>
+	  <a href="https://iulisesq.shinyapps.io/Covid_contagios/">Proyecto 4</a>:
+	Una gráfica dinámica de contagiados de COVID realizada con R.
+	<br>
+	<br>
+    <a href="http://body-quiz.is-best.net/">Proyecto 5</a>:
+	Un simple quiz de las partes corporales internas realizado en PHP.	
+  </div>
+</div>
+</div>
+          </div>
+        </div>
+         <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i><b>Leer, Escribir, Programar, Resolver</b></p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Guatemala, Ciudad</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>iulisesq@hotmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="#" id="phoneLink">(502) 59****44</a></p>
+          <p class="w3-large w3-text-black"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-black"></i>Competencias</b></p>
+          <p>TFS y MTM</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>VB 6.0</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>          
+          <p id="line4">Análisis de Datos</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">
+              <div class="w3-center w3-text- light-grey">90%</div>
+            </div>
+          </div>
+          <p id="line5">Sistemas de Gestión de Calidad</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p id="line6">Administración de Proyectos</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          </div>                    
+          <p id="line7">Bases de Datos - SQL Server y PostgreSQL</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          </div>
+          <p>Ubuntu-Linux</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          </div>  
+          <p>Python</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>C#</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+            <p>Java</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:40%">40%</div>
+		  </div>	
+	    <p>Javascript</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:30%">30%</div>
+         </div>
+		<p>PHP</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:25%">25%</div>
+          </div>          
+          <br>
+          <p class="w3-large w3-text-black"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-black"></i>Idiomas</b></p>
+          <p>Español</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:22px;width:100%"></div>
+          </div>
+          <p>Inglés</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:22px;width:85%"></div>
+          </div>
+          <p>Francés</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:22px;width:60%"></div>
+          </div>
+          <p>Lensegua</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:22px;width:50%"></div>
+          </div>
+          <br>
+		  <br>
+		  <br>
+		  <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3- light-grey w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experiencia Profesional</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Ingeniero de Automatización de Pruebas de TI / CONDUENT</b></h5>
+		  <h6 id="date1" class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2022 - Actualmente</h6>
+			<p id="line17" align="justify">Diseño y desarrollo de procedimientos de automatización de pruebas. Utilización de directrices de automatización de pruebas. Investigación de fallos a través del proceso de pruebas. Colaboración con Analistas de Aseguramiento de Calidad y Programadores para el desarrollo de Soluciones, con herramientas como SCRUM, Postman, Azure DevOps, Java, Maven, etc.</p>
+        </div>
+		<div class="w3-container">
+          <h5 class="w3-opacity"><b>Analista Líder de Aseguramiento de Calidad de Software / CONDUENT</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2014 - May 2022</h6>
+          <p id="line18" align="justify">Revisión de especificaciones de calidad y documentos de diseño técnico. Creación de casos de prueba y planes de prueba detallados, completos y bien estructurados. Estimación, priorización, planificación y coordinación de actividades de prueba de calidad. Realización de pruebas de desempeño, carga y regresión, utilizando Team Foundation Server (TFS), Administrador de pruebas de Microsoft (MTM), Microsoft Visual Studio, Selenium WebDriver, C#</p>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Analista de Proyectos / BANTRAB</b></h5>
+          <h6 id="date2" class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Ene 2013 - May 2014</h6>
+          <p id="line19" align="justify">Identificación y análisis de los procesos y flujos de trabajo centrales del negocio. Gestión de proyectos y mejora de procesos. Documentación de procesos y flujos de trabajo. Desarrollo de mapas de procesos y requisitos comerciales claros y detallados. Identificación de riesgos y oportunidades.</p>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Analista de Calidad de Software / FINCA</b></h5>		            
+          <h6 id="date3" class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dic 2011 - Ene 2013</h6>
+          <p id="line20" align="justify">Evaluación y prueba de programas de Microfinanzas y procedimientos de desarrollo informático. Revisión de módulos nuevo o modificados, incluyendo la documentación, el los documentos de Entrada/Salida y el diagrama de flujo, para determinar si el programa funciona de acuerdo a los requerimientos y se ajusta a las pautas. Documentación de los programas para describir la evaluación, prueba y corrección.</p>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Auditor de procesos / BANRURAL</b></h5>		            
+          <h6 id="date4" class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2011- Dic 2011</h6>
+          <p id="line21" align="justify">Revisión del cumplimento de las políticas y los procedimientos establecidos a través del programa de auditoría interna. Implementación de mejoras en los procesos y sistemas.</p>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Ingeniero de Soporte / MFSI(FINCA)</b></h5>		            
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2009 - Feb 2011</h6>
+          <p id="line22" align="justify">Asistencia técnica por teléfono, Messenger, Skype, correo electrónico y GoToAssist a clientes en América Latina, Europa del Este y África tanto en español como en inglés. Documentación de la resolución de incidentes y mejoras. Formación a usuarios en nuevos módulos. Análisis y Diseño de nuevas funcionalidades.</p>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3- light-grey">
+        <h2 class="w3-text-grey w3-padding-10"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Formación</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Universidad Católica San Antonio de Murcia</b></h5>		            
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - 2021</h6>
+          <p id="tet1">Máster en Seguridad de la Información y Continuidad de Negocio</p>
+          </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Universidad de San Carlos de Guatemala</b></h5>		    
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>1991 - 1995</h6>
+          <p id="tet2">Ingeniero Industrial - Colegiado 5185</p>          
+        </div>
+		<div class="w3-container">
+		  <h5 class="w3-opacity"><b>(ISC)²</b></h5>		            
+		  <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2023</h6>
+		  <p id="tet3" style="line-height: 0.020;">Certificado en Ciberseguridad</p>
+		</div>
+		<div class="w3-container">
+		  <h5 class="w3-opacity"><b>Platzi</b></h5>		            
+		  <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2022</h6>
+		  <p id="tet_new" style="line-height: 0.020;"><a href="https://platzi.com/p/partyofcuatro/ruta/7006-analyst/diploma/detalle/">Certificado de Data Analyst</a></p>
+		</div>
+		<div class="w3-container">
+		  <h5 class="w3-opacity"><b>Microsoft</b></h5>		            
+		  <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021</h6>
+		  <p id="tet4" style="line-height: 0.020;">MTA: Fundamentos de Redes</p>
+		</div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Coursera</b></h5>		            
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020</h6>
+          <p id="tet5" style="line-height: 0.020;">Especialización en Ciencia de Datos</p>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+
+
+ <!-- End Grid -->
+  </div>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-604c8679-e94e-4635-850a-fe289a55f8b1"></div>
+<script language="javascript"  src="/js/car.js">
+</script>
+<script language="javascript"  src="/js/moda.js">
+</script>
+<script>
+document.getElementById("phoneLink").addEventListener("click", function(event) {
+  event.preventDefault(); // Evita que el enlace siga el enlace original
+  alert("Número de teléfono: (502) **3789**"); // Muestra una ventana de alerta con el número de teléfono
+});
+</script>
+
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fab fa-facebook w3-hover-opacity wrapper"></i>
+  <i class="fab fa-instagram w3-hover-opacity wrapper"></i>
+  <i class="fab fa-snapchat-ghost w3-hover-opacity wrapper"></i>
+  <i class="fab fa-pinterest-p w3-hover-opacity wrapper"></i>
+  <i class="fab fa-twitter w3-hover-opacity wrapper"></i>
+  <i class="fab fa-linkedin-in w3-hover-opacity wrapper"></i>
+  <p>Powered by <a href="https://www.w3schools.com/css/" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
